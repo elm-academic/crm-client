@@ -1,4 +1,4 @@
-import React, {useState, useD} from 'react';
+import React, {useState} from 'react';
 import { Navbar, Form, FormControl } from 'react-bootstrap';
 import styled from 'styled-components';
 
@@ -21,7 +21,7 @@ const Styles = styled.div`
   }
 `;
 function NavigationBar () {
-  const [term, setTerm] = useState("");
+ // const [term, setTerm] = useState("");
   return (
   <Styles>
     <Navbar>

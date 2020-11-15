@@ -1,6 +1,5 @@
 import React , { useState, useEffect} from 'react';
 import axios from 'axios';
-import ClientList from './ClientList';
 import styled from 'styled-components';
 const Wrapper = styled.div`
   margin-top: 6em;

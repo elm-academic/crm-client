@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import { BrowserRouter as Router, Route, Link, withRouter } from "react-router-dom";
+import { BrowserRouter as Link, withRouter } from "react-router-dom";
 
 /* This defines the actual bar going down the screen */
 const StyledSideNav = styled.div`
