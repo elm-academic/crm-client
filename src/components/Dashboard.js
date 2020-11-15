@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BarChart, XAxis, YAxis, CartesianGrid, Bar, ResponsiveContainer, PieChart, Pie, Cell, Sector, Tooltip, Legend } from 'recharts';
+import { BarChart, XAxis, YAxis, CartesianGrid, Bar, ResponsiveContainer, PieChart, Pie, Cell, Tooltip, Legend } from 'recharts';
 import styled from 'styled-components';
 import axios from 'axios';
 import '../css/Dashboard.css'
