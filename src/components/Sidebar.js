@@ -65,38 +65,38 @@ class SideNav extends React.Component {
         {
           path: '/dashboard',
           name: 'Dashboard',
-          css: 'fas fa-fw fa-chart-area',
+          css: 'fa fa-fw fa-chart-area',
           key: 1
         },
         {
           path: '/clients', /* path is used as id to check which NavItem is active basically */
           name: 'Clients',
           // css: 'fa fa-fw fad fa-users',
-          css: 'fas fa-fw fad fa-users',
+          css: 'fa fa-fw fad fa-users',
           key: 2 /* Key is required, else console throws error. Does this please you Mr. Browser?! */
         },
         {
           path: '/clients/new',
           name: 'Add Client',
-          css: 'fas fa-fw fa-user-plus',
+          css: 'fa fa-fw fa-user-plus',
           key: 3
         },
         {
           path: '/projects',
           name: 'Projects',
-          css: 'fas fa-tasks',
+          css: 'fa fa-tasks',
           key: 4
         },
         {
           path: '/projects/new',
           name: 'Add Project',
-          css: 'fas fa-fw fa-plus-square',
+          css: 'fa fa-fw fa-plus-square',
           key: 5
         },
         {
           path: '/notes',
           name: 'Notes',
-          css: 'fas fa-fw fa-sticky-note',
+          css: 'fa fa-fw fa-sticky-note',
           key: 6
         },
       ]
