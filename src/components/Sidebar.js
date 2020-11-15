@@ -65,7 +65,7 @@ class SideNav extends React.Component {
         {
           path: '/dashboard',
           name: 'Dashboard',
-          css: 'fa fa-fw fa-chart-area',
+          css: 'fas fa-fw fa-chart-area',
           key: 1
         },
         {
