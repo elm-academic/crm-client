@@ -72,13 +72,13 @@ class SideNav extends React.Component {
           path: '/clients', /* path is used as id to check which NavItem is active basically */
           name: 'Clients',
           // css: 'fa fa-fw fad fa-users',
-          css: 'fa fa-fw fad fa-users',
+          css: 'fas fa-fw fad fa-users',
           key: 2 /* Key is required, else console throws error. Does this please you Mr. Browser?! */
         },
         {
           path: '/clients/new',
           name: 'Add Client',
-          css: 'fa fa-fw fa-user-plus',
+          css: 'fas fa-fw fa-user-plus',
           key: 3
         },
         {
@@ -90,13 +90,13 @@ class SideNav extends React.Component {
         {
           path: '/projects/new',
           name: 'Add Project',
-          css: 'fa fa-fw fa-plus-square',
+          css: 'fas fa-fw fa-plus-square',
           key: 5
         },
         {
           path: '/notes',
           name: 'Notes',
-          css: 'fa fa-fw fa-sticky-note',
+          css: 'fas fa-fw fa-sticky-note',
           key: 6
         },
       ]
