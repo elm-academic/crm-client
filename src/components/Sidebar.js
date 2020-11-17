@@ -116,7 +116,7 @@ class SideNav extends React.Component {
           items.map((item) => {
             /* Return however many NavItems in array to be rendered */
             return (
-              <i><NavItem path={item.path} name={item.name} css={item.css} onItemClick={this.onItemClick} /* Simply passed an entire function to onClick prop */ active={item.path === activePath} key={item.key}/></i>
+              <NavItem path={item.path} name={item.name} css={item.css} onItemClick={this.onItemClick} /* Simply passed an entire function to onClick prop */ active={item.path === activePath} key={item.key}/>
             )
           })
         }
