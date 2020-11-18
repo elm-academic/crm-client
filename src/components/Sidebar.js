@@ -45,12 +45,11 @@ class NavItem extends React.Component {
     const { active } = this.props;
     return (
       <StyledNavItem active={active}>
-        <Link to={this.props.path} className={this.props.css} onClick={this.handleClick}>
+        <a href={this.props.path} className={this.props.css} onClick={this.handleClick}>
           <NavIcon>
-            <i className={this.props.css}></i>
             <p>{this.props.name}</p>
           </NavIcon>
-        </Link>
+        </a>
       </StyledNavItem>
     );
   }
