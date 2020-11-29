@@ -24,7 +24,8 @@ function LoginForm({loginFunc, error}) {
     {/* <label> password: </label> */}
     <input type="password" name="password" id="password"  className="form-control mb-4" placeholder="Password" onChange= {e => setDetails({...details, password: e.target.value})} value={details.password}/>
   </div>
-  <input className="btn btn-success btn-block btn-rounded my-4" type="submit" value="LOGIN"/>
+  <button className="btn btn-success btn-block btn-rounded my-4" onMouseDown={submitHandler}>LOGIN</button> 
+  {/* <input className="btn btn-success btn-block btn-rounded my-4" type="submit" value="LOGIN"/> */}
 </div>
 
 </form> 
