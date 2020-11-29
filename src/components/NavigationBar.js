@@ -21,7 +21,7 @@ const Styles = styled.div`
     right: 5%;
   }
 `;
-function NavigationBar () {
+function NavigationBar ({handleLogout}) {
  // const [term, setTerm] = useState("");
   return (
   <Styles>
