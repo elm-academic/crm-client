@@ -9,7 +9,7 @@ const StyledSideNav = styled.div`
   width: 100px;
   z-index: 1;      /* Stay on top of everything */
   top: 3.7em;      /* Stay at the top */
-  background-color: #8e9561;
+  background-color: #49703b
   overflow-x: hidden;     /* Disable horizontal scroll */
   padding-top: 10px;
 `;
@@ -28,7 +28,7 @@ const StyledNavItem = styled.div`
   margin-bottom: 0;   /* Puts space between NavItems */
   a {
     font-size: 2.7em;
-    color: ${(props) => props.active ? "white" : "#362F07"};
+    color: ${(props) => props.active ? "white" : "#e2c51f"};
     :hover {
       opacity: 0.7;
       text-decoration: none;
@@ -134,3 +134,11 @@ export default class Sidebar extends React.Component {
     );
   }
 }
+
+
+
+
+
+
+
+
