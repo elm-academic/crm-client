@@ -5,7 +5,7 @@ const logo = require('../logo.png');
 
 const Styles = styled.div`
   .navbar { 
-    background-color: ##FFFFFF;
+    background-color: #FFFFFF;
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
