@@ -9,7 +9,7 @@ const StyledSideNav = styled.div`
   width: 100px;
   z-index: 1;      /* Stay on top of everything */
   top: 3.7em;      /* Stay at the top */
-  background-color: #49703b
+  background-color: #49703b;
   overflow-x: hidden;     /* Disable horizontal scroll */
   padding-top: 10px;
 `;
