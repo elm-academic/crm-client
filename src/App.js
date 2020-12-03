@@ -49,7 +49,7 @@ const handleLogout = () => {
   return (
     <Router>
     <div>
-    {((localStorage.getItem("email") === "admin@admin.com")) ?      
+    {((localStorage.getItem("email") === "kate@elmacademicconsultants.com")) ?      
        (
          <div className="container-fluid" style = {{padding:0}} >       
            <NavigationBar handleLogout={handleLogout} />
