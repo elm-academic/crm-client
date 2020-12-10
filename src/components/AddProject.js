@@ -188,7 +188,7 @@ const AddProject = (props) => {
         onChange={handleChange}
         required >
           <option value="Select">Select....</option>
-          <option value="Consulattion">Consulation</option>
+          <option value="Consulattion">Consultation</option>
           <option value="Contract Sent">Contract Sent</option>
           <option value="Contract Signed">Contract Signed</option>
           <option value="Work In Progress">Work In Progress</option>
@@ -284,7 +284,7 @@ const AddProject = (props) => {
           key={client.id}
           value={client.id}
         >
-          {client.first_name}
+          {client.first_name} {client.last_name}
         </option>
       ))}
     </select>

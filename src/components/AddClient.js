@@ -178,7 +178,7 @@ const AddClient = (props) => {
       type="text"
       className="form-control"
       name="tweeter_username"
-      placeholder="Enter Tweeter handle"
+      placeholder="Enter Twitter handle"
       value={client.tweeter_username}
       onChange={handleChange}
       required />

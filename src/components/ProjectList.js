@@ -70,7 +70,7 @@ const ProjectList = () => {
           <th scope="col">Assigned To</th>
           <th scope="col">Type</th>
           <th scope="col">Project Stage</th>
-          <th scope="col">Payment Recevied</th>
+          <th scope="col">Payment Received</th>
           <th scope="col">Payment Date</th>
           <th scope="col">Actions</th>
         </tr>

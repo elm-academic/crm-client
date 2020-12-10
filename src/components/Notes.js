@@ -38,7 +38,7 @@ useEffect(() => {
  
 return (
   <Wrapper>
-  <h2 className="display-7">Clients Notes</h2> 
+  <h2 className="display-7">Client Notes</h2> 
   <table className="table table-striped">
   <thead text-align="left">
     <tr>
