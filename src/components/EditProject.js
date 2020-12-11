@@ -156,7 +156,9 @@ return (
         required >
           <option value="Select">Select....</option>
           <option value="Quality Review">Quality Review</option>
+          <option value="Course Revision">Course Revision</option>
           <option value="Instructional Design">Instructional Design</option>
+
         </select>
       </div>
       <div className ="form-group">
