@@ -231,7 +231,7 @@ const AddProject = (props) => {
       </div>
         
 
-      <div className ="form-group">
+      {/* <div className ="form-group">
         <label htmlFor="invoice" onClick ={fileUploadHandler}>Invoice</label>
         <input 
         type="file"
@@ -240,7 +240,7 @@ const AddProject = (props) => {
         onChange={fileSelectedHandler}
         />
       
-      </div>
+      </div> */}
        
       {/* payment recevied */}
 
