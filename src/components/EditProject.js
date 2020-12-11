@@ -269,7 +269,7 @@ return (
           key={client.id}
           value={client.id}
         >
-          {client.first_name}
+          {client.first_name} {client.last_name}
         </option>
       ))}
 

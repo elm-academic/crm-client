@@ -42,7 +42,7 @@ return (
   <table className="table table-striped">
   <thead text-align="left">
     <tr>
-       <th scope="col">id</th>
+       <th scope="col">ID</th>
        <th scope="col">First Name</th>
        <th scope="col">Last Name</th>
        <th scope="col">Email</th>
